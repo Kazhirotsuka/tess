@@ -11,3 +11,8 @@ https://qiita.com/shippokun/items/0953160607833077163f　参考
 https://pc.atsuhiro-me.net/entry/2021/06/03/155123　
 boot/config.txt　をいじればどうにかなる？　次回そこから。
 
+11/8 
+boot/config.txt に　# dtoverlay=disble-bt を追加。
+再度BLE通信挑戦。　成功！！
+
+
