@@ -15,4 +15,12 @@ boot/config.txt　をいじればどうにかなる？　次回そこから。
 boot/config.txt に　# dtoverlay=disble-bt を追加。
 再度BLE通信挑戦。　成功！！
 
+main.py 行けるか試してみる？
+書いてあること試す
+$ sudo apt-get install git
+$ git clone https://github.com/T3pp31/BLE_Blockchain
+$ cd BLE_Blockchain
+$ python3 install_package.py
+setting.jsonをお互いのラズパイで書き換え。
 
+送信されてくるデータを待っているが動いているのか不明。　実行は出来てるっぽい。
