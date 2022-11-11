@@ -30,3 +30,8 @@ setting.jsonをお互いのラズパイで書き換え。
 main.py いじりながらやっていくしか。 ②にVScodeいれた。
 11/10 
 一旦形式は出来た。動かしながらやってみる。
+11/11
+main.py の送信ブロックチェーンを削った部分を試してみる。
+実行結果：changing discoverable on succeeded 改行して　学籍番号 near_device 備考　0、1は出たけどその後Traceback。
+49行目のdelete_excess_data(df)に対してTypeError: 'module' object is not callable　一旦ここまで。
+main.pyで試すのはきつい気がする。　独自で動くかチェック。宮前君と連携とりたい。
