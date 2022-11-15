@@ -35,3 +35,7 @@ main.py の送信ブロックチェーンを削った部分を試してみる。
 実行結果：changing discoverable on succeeded 改行して　学籍番号 near_device 備考　0、1は出たけどその後Traceback。
 49行目のdelete_excess_data(df)に対してTypeError: 'module' object is not callable　一旦ここまで。
 main.pyで試すのはきつい気がする。　独自で動くかチェック。宮前君と連携とりたい。
+
+11/15
+試してみた？とりあえずgithubに作ったの載せた。①をssh接続できるようにした。https://qiita.com/c60evaporator/items/2384416f1122ae124f50　参照
+ポートかなんかで引っ掛かる。明日やってみて考える？
