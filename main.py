@@ -32,7 +32,7 @@ send_data_list.append(21)
 
 client_thread = threading.Thread(
     target=l2cap_client(
-        bt_addrs[0], send_data_list))
+        bt_addr, send_data_list))
 
 
 start_discoverable()
