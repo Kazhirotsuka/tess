@@ -1,9 +1,8 @@
 import json
 import threading
-
-
-
+from sendandreceive import toTwo
 from client import l2cap_client
+
 start_discoverable()
 
 json_file = open('settings.json', 'r')
@@ -15,7 +14,6 @@ for bt_addr in json_data.values():
     bt_addrs.append(bt_addr)
 
 
-
 send_data_list = []
 
 
@@ -25,10 +23,4 @@ receive_data_list = []
 send_data_list.append(21)
 
 
-
-
-client_thread = threading.Thread(
-    target=l2cap_client(
-        bt_addr, send_data_list))
-
-client_thread.start()
+toTwo.start()
