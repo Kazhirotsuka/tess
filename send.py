@@ -13,14 +13,8 @@ bt_addrs = []
 for bt_addr in json_data.values():
     bt_addrs.append(bt_addr)
 
-
 send_data_list = []
 
-
-receive_data_list = []
-
-
 send_data_list.append(21)
-
 
 toTwo.start()
