@@ -9,6 +9,10 @@ from server import l2cap_server
 from start_discoverable import start_discoverable
 
 
+
+start_discoverable()
+
+
 json_file = open('settings.json', 'r')
 json_data = json.load(json_file)
 
@@ -35,7 +39,7 @@ client_thread = threading.Thread(
         bt_addr, send_data_list))
 
 
-start_discoverable()
+
 server_thread = threading.Thread(target=l2cap_server(receive_data_list))
 
 
