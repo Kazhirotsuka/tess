@@ -48,3 +48,23 @@ main.pyで試すのはきつい気がする。　独自で動くかチェック�
 
 11/17
 send.pyとrece.pyに分けてみた。試してみましょう。
+
+kaz@raspberrypi:~/Test $  cd /home/kaz/Test ; /usr/bin/env /bin/python /home/kaz/.vscode/extensions/ms-python.python-2022.18.2/pythonFiles/lib/python/debugpy/adapter/../../debugpy/launcher 38849 -- /home/kaz/Test/send.py 
+Changing discoverable on succeeded
+Changing discoverable on succeeded
+trying to connect to E on PSM 0x4097
+Traceback (most recent call last):
+  File "<string>", line 3, in connect
+_bluetooth.error: (112, 'Host is down')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/kaz/Test/send.py", line 20, in <module>
+    TT_thread = toTwo(bt_addrs[0],send_data_list)
+  File "/home/kaz/Test/sendandreceive.py", line 7, in toTwo
+    target=l2cap_client(
+  File "/home/kaz/Test/client.py", line 17, in l2cap_client
+    sock.connect((bt_addr, port))
+  File "<string>", line 5, in connect
+bluetooth.btcommon.BluetoothError: [Errno 112] Host is down
