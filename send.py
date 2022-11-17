@@ -1,7 +1,6 @@
 import json
 import threading
 from sendandreceive import toTwo
-from client import l2cap_client
 
 start_discoverable()
 
