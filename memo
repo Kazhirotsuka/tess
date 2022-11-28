@@ -73,3 +73,4 @@ bluetooth.btcommon.BluetoothError: [Errno 112] Host is down
 https://people.csail.mit.edu/albert/bluez-intro/x232.html
 https://people.csail.mit.edu/albert/bluez-intro/x264.html
 rfcommとl2capって何が違うの？　rfcommなら通信出来た。
+rfcomm代用でやってみる？
