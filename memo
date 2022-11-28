@@ -24,7 +24,7 @@ $ python3 install_package.py
 setting.jsonをお互いのラズパイで書き換え。
 
 送信されてくるデータを待っているが動いているのか不明。　実行は出来てるっぽい。　l2cap_server.pyの送信されてくるデータを待っています。までは見れる。
-#32について　言われなくてもそれはわかってる。どうすればいのかはわからん。
+
 
 11/9
 main.py いじりながらやっていくしか。 ②にVScodeいれた。
@@ -69,8 +69,4 @@ Traceback (most recent call last):
   File "<string>", line 5, in connect
 bluetooth.btcommon.BluetoothError: [Errno 112] Host is down
 
-11/28
-https://people.csail.mit.edu/albert/bluez-intro/x232.html
-https://people.csail.mit.edu/albert/bluez-intro/x264.html
-rfcommとl2capって何が違うの？　rfcommなら通信出来た。
-rfcomm代用でやってみる？
+
